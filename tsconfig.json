@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "noEmit": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "removeComments": false,
+    "declaration": true,  // Set declaration to true
+    "emitDeclarationOnly": false  // Set emitDeclarationOnly to false
+  },
+  "include": ["src/**/*.ts", "dist/expressTypes.d.ts"],
+  "exclude": ["node_modules"]
+}
