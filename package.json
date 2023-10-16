@@ -17,5 +17,12 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doqedev/scratchauth.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doqedev/scratchauth.js/issues"
   }
 }
